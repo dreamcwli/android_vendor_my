@@ -6,7 +6,8 @@ PRODUCT_PACKAGES += \
     Superuser \
     backuptool.functions \
     backuptool.sh \
-    su
+    su \
+    sysinit
 
 PRODUCT_PROPERTY_OVERRIDES += \
     otaupdater.otaid=$(TARGET_PRODUCT)-jb-mr1 \
